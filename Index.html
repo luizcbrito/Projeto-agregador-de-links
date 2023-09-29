@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar2.png " alt="imagem tirada do figm" />
+        <p>@maykbrito</p>
+        
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span>
+        </span>
+      </div>
+
+      <ul>
+        <li><a href="https://www.linkedin.com/in/luizcbrito/">Increva-se no NLW</a></li>
+        <li><a href="https://www.linkedin.com/in/luizcbrito/">Baixe meu e-book</a></li>
+        <li>
+          <a href="https://github.com/luizcbrito" target="_blank"
+            >Veja meu portifólio</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/luizcbrito" target="_blank"
+            >Conheça o Explorer</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/luizcbrito" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/luizcbrito/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="hhttps://www.linkedin.com/in/luizcbrito/" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/luizcbrito/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        <a href="https:rocketseat.com.br" target="_blank">
+          Feito com ♥ pela Rocketseat
+        </a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<!--  
+Módulo 4:
+neste módulo podemos destacar como aprendizado o seguinte:
+  apredenmos a Manipular um container que fica dentro do body
+  Criamos um profile onde colocamos a imagen e o @ e apredemos a 
+  centralizar o profile de duas formas
+    declaramos no estilo que tudo que está dentro do profile recede
+    o atributo ( text-align: center; ) 
+    ou seja tudo que está dentro do profile ( img e p ) fica no centro   
+    depois botamos uma lista Ul>li sem estilo
+OBS:
+atributo: target="_blank" do html serve para ao clicar no link abrir o href em outra aba do navegador
+
+Modulo 5:
+  Neste módulo etilizamos os itens da lista de links e adicionamos uma propriedade do css que é o ( hover ) onde ao passar mouse em cima ele tem  uma transição e muda para ter um efeito legal 
+    utilizamos tambem uns métodos de alinhamento de itens utilizando os atributos abaixo
+      {
+        display: flex;
+          justify-content: center; /* alinha no eixo x ( requer o flex)*/
+          align-items: center; /* alinha no eixo y  ( requer o flex)*/
+      }
+  esses é interessante ser utilizado no alinhamento de itens de uma lista por exemplo 
+  e o 
+    {
+      text-align: center;
+    }
+  bom para textos simples
+
+  estilizamos tambem a lista de social-links de iconis onde tem um alinhamento horizontal
+  onde também fizemos um ( hover )  nele;
+
+  e colocamos no final da página um rodapé que é um link e alinhamos ele com o text-align: center;
+
+  Criamos o icone de seleção de light ou dark ( oque achei difícil entender) Foi feito atravez dos display absolute e outras coisas
+    oque achei fundamental e que devo fazer uma boa revisão será sobre como centralizar e posicionar elemetos de diferentes tipos de "display" ( inline, block, absolute, relative entre outros), pois foi isso que mais dificultou
+
+Modulo 6
+
+-->
